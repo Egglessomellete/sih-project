@@ -1,0 +1,23 @@
+# ── SIH Jharkhand Portal API ──
+# Python 3.11+
+
+# --- Web framework ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# --- Database ---
+sqlalchemy>=2.0.0
+
+# --- Settings ---
+pydantic-settings>=2.0.0
+email-validator>=2.0.0
+
+# --- Auth ---
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.0.0
+
+# --- AI (MVP) ---
+scikit-learn>=1.5.0
+
+# --- File uploads ---
+python-multipart>=0.0.9
